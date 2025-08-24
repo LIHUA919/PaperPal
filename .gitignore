@@ -28,11 +28,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Environment Variables
-.env
-.env.local
-.env.*.local
-
 # IDE
 .vscode/
 .idea/
@@ -54,18 +49,10 @@ Thumbs.db
 
 # Logs
 *.log
-logs/
+
+# Environment variables
+.env
 
 # Temporary files
 *.tmp
 *.temp
-temp/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# API Keys (security)
-.env
-secrets.toml
