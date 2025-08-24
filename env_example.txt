@@ -1,0 +1,16 @@
+# API配置 - 支持三种大模型API
+# 
+# 火山引擎豆包API（推荐用于字节跳动黑客松）
+DOUBAO_API_KEY= 29116ebb-b63d-46a6-a350-15c2e9074f0f
+DOUBAO_ENDPOINT_ID= ep-20250824143457-8ljpj
+
+# 阿里云通义千问API
+QWEN_API_KEY=your_qwen_api_key_here
+
+# OpenAI API（备选方案，也用于文档嵌入）
+OPENAI_API_KEY=your_openai_api_key_here
+
+# 获取方式说明：
+# 1. 豆包API: 访问 https://console.volcengine.com/ark
+# 2. 通义千问: 访问 https://dashscope.console.aliyun.com/
+# 3. OpenAI: 访问 https://platform.openai.com/api-keys
